@@ -58,7 +58,7 @@ In a controller:
 	$this->Email->from = Configure::read('CFG.email');
 
 In a model: 
-	$this->findByEmail(Configure::read('CFG.email');
+	$this->findByEmail(Configure::read('CFG.email'));
 
 
 You can get your entire Configuration table by not giving a name: 
